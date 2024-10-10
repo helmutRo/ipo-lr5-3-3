@@ -1,7 +1,7 @@
-file = open("text.txt")
-x = file.read ()
-s = 0
-for i in x:
+file = open("text.txt") #открывает файл
+x = file.read () #читает файл
+s = 0 #создается счетчик 
+for i in x: # запускает цикл
     s += 1
-print(f"колво слов: {s} ")
+print(f"колво слов: {s} ") #вывводит строку с колвом
 
